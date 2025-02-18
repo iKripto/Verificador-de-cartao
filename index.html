@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instituto Zimbaue</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao_conteudo">
+            <h1>Proteja seu Cartão!</h1>
+            <p class="apresentacao_conteudo_texto">
+                Deseja saber se seu cartão foi clonado? Preencha as informações abaixo e descubra rapidamente.
+            </p>
+
+            <div class="container">
+                <form>
+                    <input type="text" id="cartao" placeholder="Número do cartão" required>
+                    
+                    <input type="month" id="validade" placeholder="Validade" required>
+
+                    <input type="text" id="cvv" placeholder="CVV (3 dígitos)" maxlength="3" required>
+                    
+                    <button type="button">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <figure>
+            <img src="Cartao.gif" alt="É uma imagem de cartão, fodasse" class="imagem_sobre">
+        </figure>
+    </main>
+</body>
+</html>
